@@ -34,10 +34,10 @@ SO THAT my company can compete with other e-commerce companies
 
 Included features in this application are listed below.
 
-- Express.js API
+- Express.js
+- Sequelize
 - MySQL Database
-
-If you followed tutorials, include links to those here as well.
+- Insomnia
 
     ```md
     ![alt text](assets/images/screenshot.png)
@@ -54,6 +54,14 @@ https://choosealicense.com/licenses/isc/#
 ## Demo
 
 Walkthrough video that shows the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+
+- Creating the schema from the MySQL shell, seeding the database from the command line, and starting the application's server
+
+-Demonstrating GET routes for all categories, all products, and all tags being tested in Insomnia.
+
+-Demonstrating GET routes for a single category, a single product, and a single tag being tested in Insomnia.
+
+-Demonstrating POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia.
 
 
 ## Questions
