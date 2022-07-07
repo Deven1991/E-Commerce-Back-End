@@ -20,7 +20,21 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-In order to run this application, first run "npi install" in order to install required packages. After running schema in SQL, the user will run "npm run seed" in order to seed data to the database so the user can test routes. Last, the user will run "node server.js" in order to sync the Sequelize models to the MySQL databsae on server start.
+1) In order to run this application, first run "npi install" in order to install required packages. 
+
+![alt text](images/npmi.png)
+
+2) Run "source schema.sql; in SQL
+
+![alt text](images/sourceschema.png)
+
+3) Next, the user will run "npm run seed" in order to seed data to the database so the user can test routes. 
+
+![alt text](images/npmrunseed.png)
+
+Last, the user will run "node server.js" in order to sync the Sequelize models to the MySQL databsae on server start.
+
+![alt text](images/nodeserver.png)
 
 
 ## User-Story
@@ -39,10 +53,6 @@ Included features in this application are listed below.
 - MySQL Database
 - Insomnia
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
 
 ## License
 
@@ -56,12 +66,20 @@ https://choosealicense.com/licenses/isc/#
 Walkthrough video that shows the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
 - Creating the schema from the MySQL shell, seeding the database from the command line, and starting the application's server
+    
+    Link: https://drive.google.com/file/d/1UZRCdrcRxVFVNTB3MwErD3OM5wYBkuMV/view
+    
+- Demonstrating GET routes for all categories, all products, and all tags being tested in Insomnia.
 
--Demonstrating GET routes for all categories, all products, and all tags being tested in Insomnia.
+    Link: 
 
--Demonstrating GET routes for a single category, a single product, and a single tag being tested in Insomnia.
+- Demonstrating GET routes for a single category, a single product, and a single tag being tested in Insomnia.
 
--Demonstrating POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia.
+    Link: 
+
+- Demonstrating POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia.
+
+    Link: 
 
 
 ## Questions
