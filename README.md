@@ -69,17 +69,13 @@ Walkthrough video that shows the POST, PUT, and DELETE routes for products and t
     
     Link: https://drive.google.com/file/d/1UZRCdrcRxVFVNTB3MwErD3OM5wYBkuMV/view
     
-- Demonstrating GET routes for all categories, all products, and all tags being tested in Insomnia.
+- 1) Demonstrating GET routes for all categories, all products, and all tags being tested in Insomnia.
 
-    Link: 
+- 2) Demonstrating GET routes for a single category, a single product, and a single tag being tested in Insomnia.
 
-- Demonstrating GET routes for a single category, a single product, and a single tag being tested in Insomnia.
+- 3) Demonstrating POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia.
 
-    Link: 
-
-- Demonstrating POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia.
-
-    Link: 
+    Link: https://drive.google.com/file/d/1JWxc3zqbHlBhd9kDiCJs0KyoAQg087yb/view
 
 
 ## Questions
