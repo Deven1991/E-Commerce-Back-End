@@ -2,66 +2,60 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Internet retail, also known as e-commerce, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This application is the back-end for an e-commerce site.
+
 
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
+- [User-Story](#user-story)
+- [Features](#features)
 - [License](#license)
+- [Demo](#demo)
+- [Questions](#questions)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+In order to run this application, first run "npi install" in order to install required packages. After running schema in SQL, the user will run "npm run seed" in order to seed data to the database so the user can test routes. Last, the user will run "node server.js" in order to sync the Sequelize models to the MySQL databsae on server start.
 
-## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+## User-Story
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
+
+
+## Features
+
+Included features in this application are listed below.
+
+- Express.js API
+- MySQL Database
+
+If you followed tutorials, include links to those here as well.
 
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+ISC License: A permissive license lets people do anything with your code with proper attribution and without warranty. The ISC license is functionally equivalent to the BSD 2-Clause and MIT licenses, removing some language that is no longer necessary.
 
----
+https://choosealicense.com/licenses/isc/#
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
-## Badges
+## Demo
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+Walkthrough video that shows the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
-## Features
+## Questions
 
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+For any questions, contact Melissa Deven at mmdeven@gmail.com or visit GitHub profile at https://github.com/Deven1991.
